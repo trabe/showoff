@@ -17,12 +17,12 @@ Gem::Specification.new do |s|
   s.files            += Dir.glob("bin/**/*")
   s.files            += Dir.glob("views/**/*")
   s.files            += Dir.glob("public/**/*")
-  s.add_dependency      "sinatra", "~> 1.3"
-  s.add_dependency      "redcarpet"
-  s.add_dependency      "nokogiri"
-  s.add_dependency      "json"
-  s.add_dependency      "gli","~> 2"
-  s.add_dependency      "parslet"
+  s.add_dependency      "sinatra", "1.4.4"
+  s.add_dependency      "redcarpet", "3.0.0"
+  s.add_dependency      "nokogiri", "1.6.1"
+  s.add_dependency      "json", "1.8.1"
+  s.add_dependency      "gli","2.9.0"
+  s.add_dependency      "parslet", "1.5.0"
   s.add_development_dependency "mg"
   s.description       = <<-desc
   ShowOff is a Sinatra web app that reads simple configuration files for a
